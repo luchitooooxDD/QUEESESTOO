@@ -1,0 +1,123 @@
+[03:16:37.325][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[03:16:37.337][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[03:16:37.381][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[03:16:37.382][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[03:16:38.221][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[03:16:38.222][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.44'
+[03:16:45.598][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[03:16:46.161][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[03:16:46.195][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[03:16:46.331][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[03:16:58.592][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[03:16:58.652][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[03:16:58.676][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[03:16:58.689][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[03:16:59.383][INFO][CraftTweaker]: crafttweaker.reload.start
+[03:16:59.391][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[03:16:59.423][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[03:16:59.867][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[03:16:59.872][INFO][CraftTweaker-ZenCode]: Loading file 'RSInfinityBooster.zs' with priority 0
+[03:16:59.875][INFO][CraftTweaker-ZenCode]: Loading file 'construction_wands.zs' with priority 0
+[03:16:59.879][INFO][CraftTweaker-ZenCode]: Loading file 'enderio.zs' with priority 0
+[03:16:59.882][INFO][CraftTweaker-ZenCode]: Loading file 'fluxnetworks.zs' with priority 0
+[03:16:59.883][INFO][CraftTweaker-ZenCode]: Loading file 'gliders.zs' with priority 0
+[03:16:59.884][INFO][CraftTweaker-ZenCode]: Loading file 'grappling_hook.zs' with priority 0
+[03:16:59.887][INFO][CraftTweaker-ZenCode]: Loading file 'immersive_armors.zs' with priority 0
+[03:16:59.889][INFO][CraftTweaker-ZenCode]: Loading file 'powah.zs' with priority 0
+[03:16:59.890][INFO][CraftTweaker-ZenCode]: Loading file 'rechiseled.zs' with priority 0
+[03:16:59.891][INFO][CraftTweaker-ZenCode]: Loading file 'reliquary.zs' with priority 0
+[03:16:59.891][INFO][CraftTweaker-ZenCode]: Loading file 'removed_for_quests.zs' with priority 0
+[03:16:59.891][INFO][CraftTweaker-ZenCode]: Loading file 'supplementaries.zs' with priority 0
+[03:16:59.900][INFO][CraftTweaker-ZenCode]: Loading file 'tesseract.zs' with priority 0
+[03:16:59.901][INFO][CraftTweaker-ZenCode]: Loading file 'torchmaster.zs' with priority 0
+[03:16:59.901][INFO][CraftTweaker-ZenCode]: Loading file 'twilightforest.zs' with priority 0
+[03:16:59.902][INFO][CraftTweaker-ZenCode]: Loading file 'vanilla.zs' with priority 0
+[03:16:59.902][INFO][CraftTweaker-ZenCode]: Loading file 'void_totem.zs' with priority 0
+[03:16:59.902][INFO][CraftTweaker-ZenCode]: Loading file 'waystones.zs' with priority 0
+[03:17:00.030][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:rsinfinitybooster:infinity_card>'
+[03:17:00.046][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:infinity_card_new_recipe' that outputs: '<item:rsinfinitybooster:infinity_card>'
+[03:17:00.046][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:rsinfinitybooster:dimension_card>'
+[03:17:00.052][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dimension_card_new_recipe' that outputs: '<item:rsinfinitybooster:dimension_card>'
+[03:17:00.054][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:constructionwand:stone_wand>'
+[03:17:00.060][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stone_wand_new_recipe' that outputs: '<item:constructionwand:stone_wand>'
+[03:17:00.061][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:constructionwand:iron_wand>'
+[03:17:00.066][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:iron_wand_new_recipe' that outputs: '<item:constructionwand:iron_wand>'
+[03:17:00.066][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:constructionwand:diamond_wand>'
+[03:17:00.073][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:diamond_wand_new_recipe' that outputs: '<item:constructionwand:diamond_wand>'
+[03:17:00.073][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:constructionwand:infinity_wand>'
+[03:17:00.078][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:infinity_wand_new_recipe' that outputs: '<item:constructionwand:infinity_wand>'
+[03:17:00.079][INFO][CraftTweaker]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:grains_of_magma' that outputs: '<item:enderio:grains_of_infinity>'
+[03:17:00.079][INFO][CraftTweaker]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:grains_of_magma02' that outputs: '<item:enderio:grains_of_infinity>'
+[03:17:00.080][INFO][CraftTweaker]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:flux_dust' that outputs: '<item:fluxnetworks:flux_dust>'
+[03:17:00.080][INFO][CraftTweaker]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:flux_dust02' that outputs: '<item:fluxnetworks:flux_dust>'
+[03:17:00.080][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:vc_gliders:copper_upgrade>'
+[03:17:00.088][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:copper_upgrade_new_recipe' that outputs: '<item:vc_gliders:copper_upgrade>.withTag({display: {Lore: ["[\"\",{\"text\":\"Prevents burning from lightning strikes.\",\"italic\":false,\"color\":\"yellow\"}]", "[\"\",{\"text\":\"Combine upgrades with your glider using an anvil.\",\"italic\":false,\"color\":\"gray\"}]"]}})'
+[03:17:00.089][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:vc_gliders:nether_upgrade>'
+[03:17:00.096][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:nether_upgrade_new_recipe' that outputs: '<item:vc_gliders:nether_upgrade>.withTag({display: {Lore: ["[\"\",{\"text\":\"Prevents damage from Nether heat.\",\"italic\":false,\"color\":\"yellow\"}]", "[\"\",{\"text\":\"Combine upgrades with your glider using an anvil.\",\"italic\":false,\"color\":\"gray\"}]"]}})'
+[03:17:00.097][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:longfallboots_new_recipe' that outputs: '<item:grapplemod:longfallboots>'
+[03:17:00.097][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:grapplemod:launcheritem>'
+[03:17:00.101][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:enderstaff_new_recipe' that outputs: '<item:grapplemod:launcheritem>'
+[03:17:00.101][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:grapplemod:baseupgradeitem>'
+[03:17:00.104][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:grapplingupgrade_new_recipe' that outputs: '<item:grapplemod:baseupgradeitem>'
+[03:17:00.105][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:divine_helmet>'
+[03:17:00.108][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:divine_helmet_new_recipe' that outputs: '<item:immersive_armors:divine_helmet>'
+[03:17:00.108][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:divine_chestplate>'
+[03:17:00.111][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:divine_chestplate_new_recipe' that outputs: '<item:immersive_armors:divine_chestplate>'
+[03:17:00.111][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:divine_leggings>'
+[03:17:00.115][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:divine_leggings_new_recipe' that outputs: '<item:immersive_armors:divine_leggings>'
+[03:17:00.115][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:divine_boots>'
+[03:17:00.119][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:divine_boots_new_recipe' that outputs: '<item:immersive_armors:divine_boots>'
+[03:17:00.120][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:steampunk_helmet>'
+[03:17:00.123][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:steampunk_helmet_new_recipe' that outputs: '<item:immersive_armors:steampunk_helmet>'
+[03:17:00.123][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:steampunk_chestplate>'
+[03:17:00.129][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:steampunk_chestplate_new_recipe' that outputs: '<item:immersive_armors:steampunk_chestplate>'
+[03:17:00.129][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:steampunk_leggings>'
+[03:17:00.133][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:steampunk_leggings_new_recipe' that outputs: '<item:immersive_armors:steampunk_leggings>'
+[03:17:00.133][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:immersive_armors:steampunk_boots>'
+[03:17:00.135][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:steampunk_boots_new_recipe' that outputs: '<item:immersive_armors:steampunk_boots>'
+[03:17:00.136][INFO][CraftTweaker]: Removing 'powah:energizing' recipes with output: '<item:powah:steel_energized>'
+[03:17:00.138][INFO][CraftTweaker]: Adding 'powah:energizing' recipe, with name: 'crafttweaker:steel_energized' that outputs: '<item:powah:steel_energized> * 16'
+[03:17:00.138][INFO][CraftTweaker]: Adding 'powah:energizing' recipe, with name: 'crafttweaker:energized_steel_block' that outputs: '<item:powah:energized_steel_block> * 16'
+[03:17:00.138][INFO][CraftTweaker]: Removing 'powah:energizing' recipes with output: '<item:powah:crystal_blazing>'
+[03:17:00.138][INFO][CraftTweaker]: Adding 'powah:energizing' recipe, with name: 'crafttweaker:crystal_blazing' that outputs: '<item:powah:crystal_blazing>'
+[03:17:00.139][INFO][CraftTweaker]: Removing 'powah:energizing' recipes with output: '<item:powah:crystal_spirited>'
+[03:17:00.139][INFO][CraftTweaker]: Adding 'powah:energizing' recipe, with name: 'crafttweaker:crystal_spirited' that outputs: '<item:powah:crystal_spirited>'
+[03:17:00.139][INFO][CraftTweaker]: Removing 'powah:energizing' recipes with output: '<item:powah:crystal_nitro>'
+[03:17:00.139][INFO][CraftTweaker]: Adding 'powah:energizing' recipe, with name: 'crafttweaker:crystal_nitro' that outputs: '<item:powah:crystal_nitro> * 16'
+[03:17:00.139][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:powah:capacitor_basic>'
+[03:17:00.142][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:capacitor_basic_new_recipe' that outputs: '<item:powah:capacitor_basic> * 6'
+[03:17:00.143][INFO][CraftTweaker]: Adding 'powah:energizing' recipe, with name: 'crafttweaker:enchanted_golden_apple' that outputs: '<item:minecraft:enchanted_golden_apple>'
+[03:17:00.143][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:rechiseled:chisel>'
+[03:17:00.147][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rechiseled_new_recipe' that outputs: '<item:rechiseled:chisel>'
+[03:17:00.148][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:zombie_head_new_recipe' that outputs: '<item:minecraft:zombie_head>'
+[03:17:00.148][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:piglin_head_new_recipe' that outputs: '<item:minecraft:piglin_head>'
+[03:17:00.148][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:twilightforest:uncrafting_table>'
+[03:17:00.151][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:supplementaries:timber_frame>'
+[03:17:00.153][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:timber_frame_new_recipe' that outputs: '<item:supplementaries:timber_frame>'
+[03:17:00.153][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:supplementaries:timber_brace>'
+[03:17:00.156][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:timber_brace_new_recipe' that outputs: '<item:supplementaries:timber_brace>'
+[03:17:00.156][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:supplementaries:timber_cross_brace>'
+[03:17:00.159][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:timber_cross_brace_new_recipe' that outputs: '<item:supplementaries:timber_cross_brace>'
+[03:17:00.159][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:tesseract:tesseract>'
+[03:17:00.162][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tesseract_new_recipe' that outputs: '<item:tesseract:tesseract>'
+[03:17:00.162][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:torchmaster:megatorch>'
+[03:17:00.164][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:megatorch_new_recipe' that outputs: '<item:torchmaster:megatorch>'
+[03:17:00.165][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:twilightforest:charm_of_keeping_2>'
+[03:17:00.166][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:twilightforest:charm_of_keeping_3>'
+[03:17:00.169][INFO][CraftTweaker]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:rottenfleshtoleather' that outputs: '<item:minecraft:leather>'
+[03:17:00.169][INFO][CraftTweaker]: Adding 'minecraft:smoking' recipe, with name: 'crafttweaker:rottenfleshtoleather02' that outputs: '<item:minecraft:leather>'
+[03:17:00.169][INFO][CraftTweaker]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:raw_copper_to_block01' that outputs: '<item:minecraft:copper_block>'
+[03:17:00.169][INFO][CraftTweaker]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:raw_copper_to_block02' that outputs: '<item:minecraft:copper_block>'
+[03:17:00.169][INFO][CraftTweaker]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:raw_iron_to_block01' that outputs: '<item:minecraft:iron_block>'
+[03:17:00.169][INFO][CraftTweaker]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:raw_iron_to_block02' that outputs: '<item:minecraft:iron_block>'
+[03:17:00.170][INFO][CraftTweaker]: Adding 'minecraft:smelting' recipe, with name: 'crafttweaker:raw_gold_to_block01' that outputs: '<item:minecraft:gold_block>'
+[03:17:00.170][INFO][CraftTweaker]: Adding 'minecraft:blasting' recipe, with name: 'crafttweaker:raw_gold_to_block02' that outputs: '<item:minecraft:gold_block>'
+[03:17:00.170][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:voidtotem:totem_of_void_undying>'
+[03:17:00.172][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:totem_of_void_undying_new_recipe' that outputs: '<item:voidtotem:totem_of_void_undying>.withTag({display: {Lore: ["[{\"text\":\"Prevents death by falling into the void\",\"italic\":false,\"color\":\"gray\"}]", "[{\"text\":\"Works in all inventory slots\",\"italic\":false,\"color\":\"aqua\"}]"]}})'
+[03:17:00.172][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:waystones:warp_stone>'
+[03:17:00.174][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_stone_new_recipe' that outputs: '<item:waystones:warp_stone>'
+[03:17:00.174][INFO][CraftTweaker]: Removing 'crafting' recipes with output: '<item:waystones:warp_dust>'
+[03:17:00.175][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:warp_dust_new_recipe' that outputs: '<item:waystones:warp_dust> * 4'
+[03:17:00.176][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[03:17:00.178][INFO][CraftTweaker]: crafttweaker.reload.complete
+[03:17:00.178][INFO][CraftTweaker]: This reload was made possible by Lucas and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

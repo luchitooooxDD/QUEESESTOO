@@ -1,0 +1,1311 @@
+[26Nov2024 03:16:11.245] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Nov2024 03:16:11.250] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[26Nov2024 03:16:13.743] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Nov2024 03:16:13.846] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/QUEESESTOO/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Nov2024 03:16:13.888] [main/INFO] [io.dogboy.serializationisbad.core.SerializationIsBad/]: Initializing SerializationIsBad, implementation type: modlauncher
+[26Nov2024 03:16:14.246] [main/INFO] [io.dogboy.serializationisbad.core.SerializationIsBad/]: Using remote config file
+[26Nov2024 03:16:14.247] [main/INFO] [io.dogboy.serializationisbad.core.SerializationIsBad/]: Loaded config file
+[26Nov2024 03:16:14.247] [main/INFO] [io.dogboy.serializationisbad.core.SerializationIsBad/]:   Blocking Enabled: true
+[26Nov2024 03:16:14.248] [main/INFO] [io.dogboy.serializationisbad.core.SerializationIsBad/]:   Loaded Patch Modules: 39
+[26Nov2024 03:16:14.807] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/QUEESESTOO/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.11/fmlcore-1.20.1-47.3.11.jar is missing mods.toml file
+[26Nov2024 03:16:14.809] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/QUEESESTOO/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.11/javafmllanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[26Nov2024 03:16:14.810] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/QUEESESTOO/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.11/lowcodelanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[26Nov2024 03:16:14.812] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/QUEESESTOO/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.11/mclanguage-1.20.1-47.3.11.jar is missing mods.toml file
+[26Nov2024 03:16:15.179] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[26Nov2024 03:16:15.181] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/QUEESESTOO/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[26Nov2024 03:16:15.181] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[26Nov2024 03:16:19.761] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Nov2024 03:16:19.810] [main/ERROR] [mixin/]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
+[26Nov2024 03:16:19.812] [main/ERROR] [mixin/]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
+[26Nov2024 03:16:19.822] [main/ERROR] [mixin/]: Mixin config mixins.strato.json does not specify "minVersion" property
+[26Nov2024 03:16:19.928] [main/ERROR] [mixin/]: Mixin config mixins.astrological.json does not specify "minVersion" property
+[26Nov2024 03:16:19.933] [main/ERROR] [mixin/]: Mixin config azurepaxels.mixins.json does not specify "minVersion" property
+[26Nov2024 03:16:20.528] [main/ERROR] [mixin/]: Mixin config vc_gliders-common.mixins.json does not specify "minVersion" property
+[26Nov2024 03:16:20.529] [main/ERROR] [mixin/]: Mixin config vc_gliders.mixins.json does not specify "minVersion" property
+[26Nov2024 03:16:20.625] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[26Nov2024 03:16:20.625] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Nov2024 03:16:20.737] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[26Nov2024 03:16:20.782] [main/WARN] [mixin/]: Reference map 'grapplemod.refmap.json' for grapplemod.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:20.945] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.5+mc1.20.1: 84 options available, 0 override(s) found
+[26Nov2024 03:16:20.946] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[26Nov2024 03:16:20.981] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[26Nov2024 03:16:21.083] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:21.085] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:21.092] [main/WARN] [mixin/]: Reference map 'CapeJS-forge-refmap.json' for capejs.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:21.523] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:21.525] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:21.534] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:21.619] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Nov2024 03:16:21.759] [main/INFO] [Puzzles Lib/]: Loading 169 mods:
+	- adaptive_performance_tweaks_core 11.3.0
+	- adaptive_performance_tweaks_items 11.3.0
+	- almanac 1.0.2
+	- alternate_current 1.7.0
+	- amendments 1.20-1.2.12
+		\-- mixinextras 0.3.6
+	- another_furniture 1.20.1-3.0.1
+	- architectury 9.2.14
+	- artifacts 9.5.13
+		\-- expandability 9.0.4
+	- astrological 1.2.0
+	- athena 3.1.2
+	- attributefix 21.0.4
+	- azurepaxels 1.0.6
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- beautify 2.0.2
+	- bettercombat 1.8.6+1.20.1
+	- betterfpsdist 1.20.1-6.0
+	- beyond_mines_falling 1.2.0
+	- blueprint 7.1.0
+	- bookshelf 20.2.13
+	- brandonscore 3.2.1.302
+	- bwncr 3.17.1
+	- cabletiers 1.20.1-1.2.2
+	- caelus 3.2.0+1.20.1
+	- capejs 1.0.0-1.20.1
+	- carbonconfig 1.20-1.2.6
+	- carryon 2.1.2.7
+	- chunkpregen 1.20-4.4.4
+	- chunksending 1.20.1-2.8
+	- citadel 2.6.0
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- cobweb 1.0.0
+	- codechickenlib 4.4.0.516
+	- collective 7.87
+	- connectivity 1.20.1-5.6
+	- constructionwand 1.20.1-2.11
+	- corgilib 4.0.3.2
+	- cosmeticarmorreworked 1.20.1-v1a
+	- crafttweaker 14.0.44
+	- craterlib 2.1.1
+	- cucumber 7.0.13
+	- cupboard 1.20.1-2.7
+	- curios 5.11.0+1.20.1
+	- deeperdarker 1.3.2
+	- denseores 1.2.2
+	- diagonalfences 8.1.4
+		\-- diagonalblocks 8.0.5
+	- draconicevolution 3.1.2.588
+	- e4mc_minecraft 5.2.1
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- edivadlib 2.0.1
+	- elevatorid 1.20.1-lex-1.9
+	- elytraslot 6.4.4+1.20.1
+		\-- mixinsquared 0.1.2-beta.6
+	- endercrop 1.20.1-1.7.0
+	- enderio 6.2.2-beta
+	- enhancedcelestials 1.20.1-5.0.1.0
+	- enigmaticgraves 1.8.0
+	- explorations 1.20.1-1.6.1
+	- explorify 1.6.2
+	- extradisks 1.20.1-3.0.2
+	- extrastorage 4.0.7
+	- farsight_view 1.20.1-3.7
+	- ferritecore 6.0.1
+	- fluxnetworks 7.2.1.15
+	- forge 47.3.11
+	- framework 0.7.11
+	- ftbchunks 2001.3.2
+	- ftbessentials 2001.2.2
+	- ftblibrary 2001.2.5
+	- ftbquests 2001.4.9
+	- ftbteams 2001.3.0
+	- ftbultimine 2001.1.5
+	- ftbxmodcompat 2.1.1
+	- fusion 1.1.1
+	- geckolib 4.4.9
+	- getittogetherdrops 1.3
+	- globalpacks 1.16.2_forge
+	- grapplemod 1.20.1-v13
+	- harvest_with_ease 9.2.0
+	- iceberg 1.1.25
+	- immersive_armors 1.6.1+1.20.1
+	- incontrol 1.20-9.2.8
+	- industrialforegoing 3.5.19
+	- insanelib 1.15.0
+	- inventorysorter 23.0.1
+	- item_obliterator 2.3.0
+	- itemfilters 2001.1.0-build.59
+	- jade 11.11.1+forge
+	- jadeaddons 5.3.1+forge
+	- jei 15.20.0.105
+	- jeresources 1.4.0.247
+	- jmi 1.20.1-0.14-48
+	- journeymap 5.10.3
+	- konkrete 1.8.0
+	- kubejs 2001.6.5-build.16
+	- letmedespawn 1.4.4
+	- limitedchunks 1.8
+	- lootr 0.7.34.87
+	- mca 7.5.21+1.20.1
+	- medieval_buildings 1.0.2
+	- medievalend 1.0.1
+	- melody 1.0.2
+	- minecraft 1.20.1
+	- modernfix 5.19.5+mc1.20.1
+	- moonlight 1.20-2.13.25
+	- mr_dungeons_andtaverns 3.0.3.f
+	- necronomicon 1.6.0
+	- netherportalfix 13.0.1
+	- nochatreports 1.20.1-v2.2.2
+	- noisium 2.3.0+mc1.20-1.20.1
+	- notenoughcrashes 4.4.7+1.20.1
+	- nyfsspiders 2.1.1
+	- ore_creeper 1.20.1-1.2.1
+	- parcool 3.3.0.2
+	- patchouli 1.20.1-84-FORGE
+	- playeranimator 1.0.2-rc1+1.20
+	- potion_amulets 1.0.0
+	- powah 5.0.7
+	- prism 1.0.5
+	- puzzleslib 8.1.24
+		\-- puzzlesaccessapi 8.0.7
+	- rechiseled 1.1.6
+	- refinedstorage 1.12.4
+	- refinedstorageaddons 0.10.0
+	- refstoragemanual 1.0.0
+	- reliquary 2.0.44.1243
+	- resourcefullib 2.1.29
+	- rhino 2001.2.3-build.6
+	- royalvariations 1.0.0
+	- rsinfinitybooster 1.20.1-1.0+41
+	- rsrequestify 2.3.3
+	- saturn 0.1.3
+	- searchables 1.0.3
+	- shetiphiancore 1.20.1-1.3
+	- shieldsplus 1.10.2-mc1.20.1
+	- simplefarming 1.20.1-2.0.6
+	- simplerpc 3.3.3
+	- simplyswords 1.56.0-1.20.1
+	- skyvillages 1.0.4
+	- smoothchunk 1.20.1-3.6
+	- sophisticatedbackpacks 3.20.12.1126
+	- sophisticatedcore 0.6.36.741
+	- sophisticatedstorage 0.10.48.942
+	- starterkit 7.1
+	- strato 0.3.1
+	- strayed_fates_forsaken 1.1.3.2
+	- structory 1.3.5
+	- structureessentials 1.20.1-3.4
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.17+a
+	- supplementaries 1.20-3.1.1
+	- terrablender 3.0.1.7
+	- tesseract 1.0.35a
+	- titanium 3.8.32
+	- torchmaster 20.1.9
+	- totw_modded 1.0.5
+	- trashcans 1.0.18b
+	- twilightforest 4.3.2508
+	- vc_gliders 1.1.6
+		\-- palladiumcore 1.20-2.0.0.0
+	- visuality 2.0.2
+	- visualworkbench 8.0.0
+	- voidtotem 3.0.1
+	- waystones 14.1.6
+[26Nov2024 03:16:22.593] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[26Nov2024 03:16:23.170] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[26Nov2024 03:16:23.230] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER
+[26Nov2024 03:16:23.231] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/RenderType (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/RenderType for invalid dist DEDICATED_SERVER)
+[26Nov2024 03:16:23.231] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.RenderType was not found mixins.astrological.json:RenderTypeMixin
+[26Nov2024 03:16:23.293] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[26Nov2024 03:16:23.293] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[26Nov2024 03:16:23.402] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.armor.BacktankBlockEntity)
+[26Nov2024 03:16:23.402] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess
+[26Nov2024 03:16:24.732] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[26Nov2024 03:16:25.337] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[26Nov2024 03:16:25.520] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[26Nov2024 03:16:26.000] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.05 s after launch)
+[26Nov2024 03:16:26.211] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Nov2024 03:16:26.212] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Nov2024 03:16:29.514] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3510 milliseconds
+[26Nov2024 03:16:29.609] [main/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
+[26Nov2024 03:16:29.610] [main/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mdbe18e2$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[26Nov2024 03:16:29.610] [main/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mdbe18e2$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[26Nov2024 03:16:30.912] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zbj000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[26Nov2024 03:16:32.650] [main/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[26Nov2024 03:16:33.515] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by com.abdelaziz.saturn.mixin.leaks.biome_temperature_cache.BiomeMixin. Skipping method.
+[26Nov2024 03:16:34.204] [modloading-worker-0/WARN] [APTweaks(Core)/]: ⚠ The log level for APTweaks(Core) is set to ALL, this will log all debug information and will cause performance issues. This is expected in a developer environment or during large-scale troubleshooting. However, rest assured, to mitigate performance concerns, the debug mode for this module has been automatically adjusted to an info level! If you require debug information, simply use the /aptweaks debug <module> command to re-enable debug mode.
+[26Nov2024 03:16:34.205] [modloading-worker-0/WARN] [APTweaks(Core)/]: Adjusting log level for APTweaks(Core) from ALL to INFO, for performance reasons!
+[26Nov2024 03:16:34.206] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Core) from ALL to INFO
+[26Nov2024 03:16:34.226] [modloading-worker-0/INFO] [APTweaks(Core)/]: Register Adaptive Performance Tweaks: Core common config ...
+[26Nov2024 03:16:34.271] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[26Nov2024 03:16:34.415] [modloading-worker-0/INFO] [io.dogboy.serializationisbad.core.SerializationIsBad/]: Applying patches to com.supermartijn642.configlib.ConfigSyncPacket
+[26Nov2024 03:16:34.447] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[26Nov2024 03:16:34.465] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[26Nov2024 03:16:34.512] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[26Nov2024 03:16:34.513] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[26Nov2024 03:16:34.514] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[26Nov2024 03:16:34.623] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[26Nov2024 03:16:34.623] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[26Nov2024 03:16:34.623] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[26Nov2024 03:16:34.623] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[26Nov2024 03:16:34.624] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[26Nov2024 03:16:34.624] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[26Nov2024 03:16:34.624] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[26Nov2024 03:16:34.668] [modloading-worker-0/INFO] [cabletiers/]: Loading config: /workspaces/QUEESESTOO/servidor_minecraft/config/cabletiers-common.toml
+[26Nov2024 03:16:34.671] [modloading-worker-0/INFO] [cabletiers/]: Built config: /workspaces/QUEESESTOO/servidor_minecraft/config/cabletiers-common.toml
+[26Nov2024 03:16:34.678] [modloading-worker-0/INFO] [cabletiers/]: Loaded config: /workspaces/QUEESESTOO/servidor_minecraft/config/cabletiers-common.toml
+[26Nov2024 03:16:34.769] [modloading-worker-0/INFO] [io.dogboy.serializationisbad.core.SerializationIsBad/]: Applying patches to immersive_armors.cobalt.network.Message
+[26Nov2024 03:16:34.780] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[26Nov2024 03:16:34.840] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Nov2024 03:16:34.841] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id powah:packet
+[26Nov2024 03:16:34.848] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[26Nov2024 03:16:34.848] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[26Nov2024 03:16:35.036] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalblocks:main
+[26Nov2024 03:16:35.223] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[26Nov2024 03:16:35.251] [modloading-worker-0/INFO] [PluginManager/]: Found FeaturePluginInstance for class PatchouliPlugin for plugin patchouli
+[26Nov2024 03:16:35.252] [modloading-worker-0/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[26Nov2024 03:16:35.253] [modloading-worker-0/INFO] [PluginManager/]: Constructed class PatchouliPlugin for plugin patchouli for mod industrialforegoing
+[26Nov2024 03:16:35.254] [modloading-worker-0/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[26Nov2024 03:16:35.254] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class PatchouliPlugin
+[26Nov2024 03:16:35.258] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[26Nov2024 03:16:35.265] [modloading-worker-0/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class PatchouliPlugin
+[26Nov2024 03:16:35.265] [modloading-worker-0/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[26Nov2024 03:16:35.285] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 3 RS API injection points
+[26Nov2024 03:16:35.286] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.enderio.conduits.common.integrations.refinedstorage.RSTicker RSAPI
+[26Nov2024 03:16:35.288] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.enderio.conduits.common.integrations.refinedstorage.RSNodeHost RSAPI
+[26Nov2024 03:16:35.289] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[26Nov2024 03:16:35.305] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: MCA Reborn detected, applying compat
+[26Nov2024 03:16:35.355] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[26Nov2024 03:16:35.548] [modloading-worker-0/INFO] [dev.enemeez.simplefarming.common.SimpleFarming/]: Simple Farming setup complete!
+[26Nov2024 03:16:35.583] [modloading-worker-0/INFO] [PluginManager/]: Executing phase INIT for plugin class PatchouliPlugin
+[26Nov2024 03:16:35.587] [modloading-worker-0/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[26Nov2024 03:16:35.658] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.87.
+[26Nov2024 03:16:35.765] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[26Nov2024 03:16:35.810] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[26Nov2024 03:16:35.812] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[26Nov2024 03:16:35.813] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[26Nov2024 03:16:35.853] [modloading-worker-0/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class PatchouliPlugin
+[26Nov2024 03:16:35.853] [modloading-worker-0/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[26Nov2024 03:16:36.144] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=JourneyMap]
+[26Nov2024 03:16:36.477] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[26Nov2024 03:16:36.486] [modloading-worker-0/WARN] [APTweaks(Items)/]: ⚠ The log level for APTweaks(Items) is set to ALL, this will log all debug information and will cause performance issues. This is expected in a developer environment or during large-scale troubleshooting. However, rest assured, to mitigate performance concerns, the debug mode for this module has been automatically adjusted to an info level! If you require debug information, simply use the /aptweaks debug <module> command to re-enable debug mode.
+[26Nov2024 03:16:36.486] [modloading-worker-0/WARN] [APTweaks(Items)/]: Adjusting log level for APTweaks(Items) from ALL to INFO, for performance reasons!
+[26Nov2024 03:16:36.486] [modloading-worker-0/INFO] [APTweaks(Core)/]: Changing log level for APTweaks(Items) from ALL to INFO
+[26Nov2024 03:16:36.490] [modloading-worker-0/INFO] [APTweaks(Items)/]: Registering Adaptive Performance Tweaks: Items common config ...
+[26Nov2024 03:16:36.528] [modloading-worker-0/INFO] [Void Totem/]: Loading up Void Totem (Forge)
+[26Nov2024 03:16:36.608] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[26Nov2024 03:16:36.640] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[26Nov2024 03:16:36.642] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[26Nov2024 03:16:36.644] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[26Nov2024 03:16:36.647] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[26Nov2024 03:16:36.648] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[26Nov2024 03:16:36.853] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[26Nov2024 03:16:36.854] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[26Nov2024 03:16:36.864] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/8f6a899247753217b9d86ab427a2b279
+[26Nov2024 03:16:36.896] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[26Nov2024 03:16:36.923] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[26Nov2024 03:16:36.932] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[26Nov2024 03:16:36.952] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[26Nov2024 03:16:36.958] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[26Nov2024 03:16:36.971] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[26Nov2024 03:16:36.971] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[26Nov2024 03:16:36.972] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source capejs
+[26Nov2024 03:16:36.973] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbxmodcompat
+[26Nov2024 03:16:36.984] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin does not have required mod ftbfiltersystem loaded, skipping
+[26Nov2024 03:16:36.987] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source cucumber
+[26Nov2024 03:16:36.994] [modloading-worker-0/INFO] [KubeJS/]: Done in 41.54 ms
+[26Nov2024 03:16:37.014] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[26Nov2024 03:16:37.015] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[26Nov2024 03:16:37.017] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[26Nov2024 03:16:37.018] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[26Nov2024 03:16:37.020] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[26Nov2024 03:16:37.036] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[26Nov2024 03:16:37.037] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[26Nov2024 03:16:37.138] [modloading-worker-0/INFO] [Simple RPC/]: Loading config file from /workspaces/QUEESESTOO/servidor_minecraft/config/simple-rpc-server.toml
+[26Nov2024 03:16:37.149] [modloading-worker-0/INFO] [CraterLib/]: Registered simple-rpc-server.toml successfully!
+[26Nov2024 03:16:37.171] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled KubeJS integration
+[26Nov2024 03:16:37.173] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Chunks] Enabled KubeJS integration
+[26Nov2024 03:16:37.174] [modloading-worker-0/INFO] [de.melanx.extradisks.ExtraDisks/]: 14 blocks registered.
+[26Nov2024 03:16:37.176] [modloading-worker-0/INFO] [de.melanx.extradisks.ExtraDisks/]: 29 items registered.
+[26Nov2024 03:16:37.177] [modloading-worker-0/INFO] [de.melanx.extradisks.ExtraDisks/]: 13 tiles registered.
+[26Nov2024 03:16:37.178] [modloading-worker-0/INFO] [de.melanx.extradisks.ExtraDisks/]: 13 containers registered.
+[26Nov2024 03:16:37.264] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[26Nov2024 03:16:37.266] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:share_waypoint
+[26Nov2024 03:16:37.274] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[26Nov2024 03:16:37.276] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[26Nov2024 03:16:37.280] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[26Nov2024 03:16:37.296] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[26Nov2024 03:16:37.297] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[26Nov2024 03:16:37.349] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412
+[26Nov2024 03:16:37.349] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.11 Initialized
+[26Nov2024 03:16:37.353] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[26Nov2024 03:16:37.358] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[26Nov2024 03:16:37.369] [modloading-worker-0/INFO] [BrandonsCore/]: Knock Knock...
+[26Nov2024 03:16:37.367] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[26Nov2024 03:16:37.373] [modloading-worker-0/WARN] [draconicevolution/]: Reactor detonation initiated.
+[26Nov2024 03:16:37.374] [modloading-worker-0/INFO] [BrandonsCore/]: Wait... NO! What?
+[26Nov2024 03:16:37.375] [modloading-worker-0/INFO] [BrandonsCore/]: Stop That! That's not how this works!
+[26Nov2024 03:16:37.376] [modloading-worker-0/WARN] [draconicevolution/]: Calculating explosion ETA
+[26Nov2024 03:16:37.376] [modloading-worker-0/INFO] [BrandonsCore/]: Ahh... NO... NONONO! DONT DO THAT!!! STOP THIS NOW!
+[26Nov2024 03:16:37.377] [modloading-worker-0/WARN] [draconicevolution/]: **Explosion Imminent!!!**
+[26Nov2024 03:16:37.378] [modloading-worker-0/INFO] [BrandonsCore/]: Well...... fork...
+[26Nov2024 03:16:37.486] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.shieldsplus.module.BaseFeature
+[26Nov2024 03:16:37.570] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.216 s
+[26Nov2024 03:16:38.063] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
+[26Nov2024 03:16:38.083] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[26Nov2024 03:16:38.090] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[26Nov2024 03:16:38.092] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[26Nov2024 03:16:38.168] [modloading-worker-0/INFO] [NoChatReports/]: KONNICHIWA ZA WARUDO!
+[26Nov2024 03:16:38.168] [modloading-worker-0/INFO] [NoChatReports/]: Default JVM text encoding is: UTF-8
+[26Nov2024 03:16:38.172] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
+[26Nov2024 03:16:38.179] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
+[26Nov2024 03:16:38.188] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[26Nov2024 03:16:38.189] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[26Nov2024 03:16:38.191] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[26Nov2024 03:16:38.197] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[26Nov2024 03:16:38.198] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[26Nov2024 03:16:38.205] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[26Nov2024 03:16:38.207] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[26Nov2024 03:16:38.212] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[26Nov2024 03:16:38.214] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[26Nov2024 03:16:38.216] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[26Nov2024 03:16:38.225] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[26Nov2024 03:16:38.233] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[26Nov2024 03:16:38.235] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[26Nov2024 03:16:38.240] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[26Nov2024 03:16:38.241] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[26Nov2024 03:16:38.242] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[26Nov2024 03:16:38.243] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[26Nov2024 03:16:38.253] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[26Nov2024 03:16:38.260] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[26Nov2024 03:16:38.262] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[26Nov2024 03:16:38.266] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[26Nov2024 03:16:38.269] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[26Nov2024 03:16:38.270] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[26Nov2024 03:16:38.272] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.069 s
+[26Nov2024 03:16:38.272] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[26Nov2024 03:16:38.274] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[26Nov2024 03:16:38.277] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.701 s with 0 errors and 0 warnings
+[26Nov2024 03:16:38.329] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[26Nov2024 03:16:38.333] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[26Nov2024 03:16:38.629] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalfences:main
+[26Nov2024 03:16:38.706] [modloading-worker-0/WARN] [Visuality/]: Visuality is installed on a dedicated server, skip loading...
+[26Nov2024 03:16:38.741] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[26Nov2024 03:16:38.810] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[26Nov2024 03:16:41.074] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 212ms
+[26Nov2024 03:16:41.176] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 98ms
+[26Nov2024 03:16:41.338] [main/INFO] [Diagonal Blocks/]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 156ms
+[26Nov2024 03:16:42.757] [main/INFO] [Moonlight/]: Initialized block sets in 31ms
+[26Nov2024 03:16:43.195] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[26Nov2024 03:16:43.195] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[26Nov2024 03:16:43.195] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[26Nov2024 03:16:43.195] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[26Nov2024 03:16:43.195] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[26Nov2024 03:16:43.196] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[26Nov2024 03:16:43.236] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[26Nov2024 03:16:43.236] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[26Nov2024 03:16:43.237] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[26Nov2024 03:16:43.544] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[26Nov2024 03:16:43.544] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[26Nov2024 03:16:44.784] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:16:44.797] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.797] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.797] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.798] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:16:44.801] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.801] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.801] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.801] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.801] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.802] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.802] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.802] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.802] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.802] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.803] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.803] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:16:44.804] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.810] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.810] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:16:44.810] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.810] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:16:44.810] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:16:44.810] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.811] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.811] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.811] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.811] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.813] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.819] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.819] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.820] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.820] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:44.821] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:16:45.164] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[26Nov2024 03:16:45.165] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[26Nov2024 03:16:45.167] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[26Nov2024 03:16:45.167] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[26Nov2024 03:16:45.170] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[26Nov2024 03:16:45.170] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[26Nov2024 03:16:45.172] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[26Nov2024 03:16:45.172] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[26Nov2024 03:16:45.174] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[26Nov2024 03:16:45.174] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[26Nov2024 03:16:45.375] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[26Nov2024 03:16:45.387] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[26Nov2024 03:16:45.408] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.item_obliterator.forge.config.ConfigEntries.
+[26Nov2024 03:16:45.410] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.item_obliterator.forge.config.ConfigEntries read successfully.
+[26Nov2024 03:16:45.413] [modloading-worker-0/INFO] [elocindev.item_obliterator.forge.ItemObliterator/]: Loaded Item Obliterator Config
+[26Nov2024 03:16:45.457] [modloading-worker-0/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class PatchouliPlugin
+[26Nov2024 03:16:45.458] [modloading-worker-0/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[26Nov2024 03:16:45.507] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[26Nov2024 03:16:45.510] [modloading-worker-0/INFO] [FTB Library/]: Setting game stages provider implementation to: KubeJS Stages
+[26Nov2024 03:16:45.511] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [KubeJS Stages] as the active game stages implementation
+[26Nov2024 03:16:45.513] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [FALLBACK] as the active permissions implementation
+[26Nov2024 03:16:45.518] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] recipe helper provider is [JEI]
+[26Nov2024 03:16:45.520] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled Item Filters integration
+[26Nov2024 03:16:45.523] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Chunks] Enabled Waystones integration
+[26Nov2024 03:16:45.536] [modloading-worker-0/INFO] [com.limitedchunks.LimitedChunks/]: Limited chunkloading initialized
+[26Nov2024 03:16:45.542] [modloading-worker-0/INFO] [com.farsight.FarsightMod/]: farsight_view mod initialized
+[26Nov2024 03:16:45.588] [modloading-worker-0/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials/]: Initialized enhancedcelestials network!
+[26Nov2024 03:16:45.596] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[26Nov2024 03:16:45.599] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[26Nov2024 03:16:45.609] [modloading-worker-0/INFO] [com.chunksending.ChunkSending/]: chunksending mod initialized
+[26Nov2024 03:16:45.704] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
+[26Nov2024 03:16:45.744] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[26Nov2024 03:16:46.057] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 8 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 8 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Nov2024 03:16:46.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
+[26Nov2024 03:16:46.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[26Nov2024 03:16:46.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[26Nov2024 03:16:46.367] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Nov2024 03:16:46.368] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
+[26Nov2024 03:16:46.394] [main/INFO] [Supplementaries/]: Finished mod setup in: [0, 2, 0, 1, 0, 0, 15, 7, 3] ms
+[26Nov2024 03:16:46.447] [main/INFO] [journeymap/]: Initializing Packet Registries
+[26Nov2024 03:16:46.583] [main/INFO] [Moonlight/]: Initialized color sets in 91ms
+[26Nov2024 03:16:46.598] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: UP_TO_DATE Current: 1.0.0 Target: null
+[26Nov2024 03:16:46.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[26Nov2024 03:16:46.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[26Nov2024 03:16:46.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[26Nov2024 03:16:47.001] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[26Nov2024 03:16:47.002] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[26Nov2024 03:16:47.015] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 22 compatible attributes.
+[26Nov2024 03:16:47.025] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 22 values from config.
+[26Nov2024 03:16:47.048] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 22 entries.
+[26Nov2024 03:16:47.049] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 22 attributes.
+[26Nov2024 03:16:47.085] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Nov2024 03:16:47.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[26Nov2024 03:16:47.094] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at io.github.drmanganese.endercrop.compat.WailaCompatibility
+[26Nov2024 03:16:47.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-3.1.1 Target: null
+[26Nov2024 03:16:47.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalblocks.json
+[26Nov2024 03:16:47.102] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at shetiphian.core.internal.modintegration.jade.JadePlugin
+[26Nov2024 03:16:47.104] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[26Nov2024 03:16:47.104] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[26Nov2024 03:16:47.106] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at edivad.extrastorage.compat.jade.JadeCompatibility
+[26Nov2024 03:16:47.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalblocks] Found status: BETA Current: 8.0.5 Target: null
+[26Nov2024 03:16:47.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[26Nov2024 03:16:47.107] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
+[26Nov2024 03:16:47.113] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.p3pp3rf1y.sophisticatedstorage.compat.jade.StorageJadePlugin
+[26Nov2024 03:16:47.114] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.supermartijn642.tesseract.integration.TesseractWailaPlugin
+[26Nov2024 03:16:47.114] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[26Nov2024 03:16:47.115] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.quarris.enigmaticgraves.compat.WailaCompat
+[26Nov2024 03:16:47.115] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[26Nov2024 03:16:47.127] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[26Nov2024 03:16:47.132] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[26Nov2024 03:16:47.134] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at reliquary.compat.jade.JadeCompat
+[26Nov2024 03:16:47.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[26Nov2024 03:16:47.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[26Nov2024 03:16:47.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[26Nov2024 03:16:47.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [extrastorage] Starting version check at https://api.modrinth.com/updates/extrastorage/forge_updates.json
+[26Nov2024 03:16:47.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [extrastorage] Found status: UP_TO_DATE Current: 4.0.7 Target: null
+[26Nov2024 03:16:47.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[26Nov2024 03:16:47.530] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Nov2024 03:16:47.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [strayed_fates_forsaken] Starting version check at https://api.modrinth.com/updates/3GGOgUqD/forge_updates.json
+[26Nov2024 03:16:47.575] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [strayed_fates_forsaken] Found status: UP_TO_DATE Current: 1.1.3.2 Target: null
+[26Nov2024 03:16:47.575] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.20.1
+[26Nov2024 03:16:47.915] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Nov2024 03:16:48.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: UP_TO_DATE Current: 4.4.0.516 Target: null
+[26Nov2024 03:16:48.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harvest_with_ease] Starting version check at https://api.modrinth.com/updates/harvest-with-ease/forge_updates.json
+[26Nov2024 03:16:48.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harvest_with_ease] Found status: OUTDATED Current: 9.2.0 Target: 9.3.0
+[26Nov2024 03:16:48.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[26Nov2024 03:16:48.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[26Nov2024 03:16:48.355] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[26Nov2024 03:16:48.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.0 Target: null
+[26Nov2024 03:16:48.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[26Nov2024 03:16:48.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[26Nov2024 03:16:48.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[26Nov2024 03:16:48.514] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/QUEESESTOO/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23423!/assets/.mcassetsroot' uses unexpected schema
+[26Nov2024 03:16:48.514] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/QUEESESTOO/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23423!/data/.mcassetsroot' uses unexpected schema
+[26Nov2024 03:16:48.575] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[26Nov2024 03:16:48.576] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[26Nov2024 03:16:48.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[26Nov2024 03:16:48.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
+[26Nov2024 03:16:48.800] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 101 ms
+[26Nov2024 03:16:48.832] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 3 ms
+[26Nov2024 03:16:48.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA Current: 14.0.44 Target: 14.0.44
+[26Nov2024 03:16:48.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [extradisks] Starting version check at https://assets.melanx.de/updates/extra-disks.json
+[26Nov2024 03:16:49.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [extradisks] Found status: BETA Current: 1.20.1-3.0.2 Target: 1.20.1-3.0.2
+[26Nov2024 03:16:49.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [edivadlib] Starting version check at https://api.modrinth.com/updates/edivadlib/forge_updates.json
+[26Nov2024 03:16:49.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [edivadlib] Found status: UP_TO_DATE Current: 2.0.1 Target: null
+[26Nov2024 03:16:49.080] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[26Nov2024 03:16:49.095] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[26Nov2024 03:16:49.095] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Nov2024 03:16:49.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.11 Target: 47.3.12
+[26Nov2024 03:16:49.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Starting version check at https://version-check.covers1624.net/check/?mod=BrandonsCore&mc=1.20.1
+[26Nov2024 03:16:49.269] [main/INFO] [KubeJS Server/]: example.js#5: Hello, World! (Loaded server scripts)
+[26Nov2024 03:16:49.270] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:example.js in 0.002 s
+[26Nov2024 03:16:49.270] [main/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.021 s with 0 errors and 0 warnings
+[26Nov2024 03:16:49.271] [main/INFO] [KubeJS Server/]: Scripts loaded
+[26Nov2024 03:16:49.299] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[26Nov2024 03:16:49.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [brandonscore] Found status: BETA Current: 3.2.1.302 Target: 3.2.1.302
+[26Nov2024 03:16:49.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [draconicevolution] Starting version check at https://version-check.covers1624.net/check/?mod=Draconic-Evolution&mc=1.20.1
+[26Nov2024 03:16:49.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [draconicevolution] Found status: AHEAD Current: 3.1.2.588 Target: null
+[26Nov2024 03:16:49.637] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[26Nov2024 03:16:49.652] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.25 Target: null
+[26Nov2024 03:16:49.652] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[26Nov2024 03:16:49.677] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.11.jar%23424!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Nov2024 03:16:49.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalfences.json
+[26Nov2024 03:16:49.691] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Found status: OUTDATED Current: 8.1.4 Target: 8.1.5
+[26Nov2024 03:16:49.691] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[26Nov2024 03:16:49.704] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.24 Target: 8.1.25
+[26Nov2024 03:16:53.099] [main/INFO] [APTweaks(Core)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Core ...
+[26Nov2024 03:16:53.165] [main/INFO] [APTweaks(Items)/]: Registering /aptweaks commands for Adaptive Performance Tweaks: Items ...
+[26Nov2024 03:16:53.639] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.641] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.641] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:shaded_woodlands (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crystal_dunes (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:sunset_maple_forest (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:rising_creek (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crystal_roughs (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:searing_grassland (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crescent_orchard (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.642] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.644] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:brightlands (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:slushlands (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:frostbitten_forest (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:frostbitten_forest_clearing (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:snow_covered_pines (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:brisk_meadow (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:polar_highland (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.647] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	ad_astra:martian_wastelands (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.648] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.648] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	ad_astra:glacio_ice_peaks (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.649] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from totw_modded-forge-1.20.1-1.0.5.jar)
+[26Nov2024 03:16:53.915] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag draconicevolution:modules as it is missing following references: draconicadditions:item_chaotic_auto_feed (from Draconic-Evolution-1.20.1-3.1.2.588-universal.jar), 
+	draconicadditions:item_draconic_tick_accel (from Draconic-Evolution-1.20.1-3.1.2.588-universal.jar), 
+	draconicadditions:item_chaotic_tick_accel (from Draconic-Evolution-1.20.1-3.1.2.588-universal.jar), 
+	draconicadditions:item_semi_stable_chaos (from Draconic-Evolution-1.20.1-3.1.2.588-universal.jar), 
+	draconicadditions:item_stable_chaos (from Draconic-Evolution-1.20.1-3.1.2.588-universal.jar), 
+	draconicadditions:item_unstable_chaos (from Draconic-Evolution-1.20.1-3.1.2.588-universal.jar), 
+	draconicadditions:item_chaos_injector (from Draconic-Evolution-1.20.1-3.1.2.588-universal.jar)
+[26Nov2024 03:16:55.716] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:supplementaries:blocks/fine_wood_slab
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'supplementaries:cabin_siding_slab'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.11-universal.jar%23428!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.11-universal.jar%23428!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23423!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[26Nov2024 03:16:58.690] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[26Nov2024 03:16:58.816] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
+[26Nov2024 03:16:58.822] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:squid_beak as it's serializer returned null
+[26Nov2024 03:16:58.828] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/yellorite as it's serializer returned null
+[26Nov2024 03:16:58.844] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/fluorite as it's serializer returned null
+[26Nov2024 03:16:58.850] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[26Nov2024 03:16:58.853] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/cinnabar as it's serializer returned null
+[26Nov2024 03:16:58.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:ae_covered_dense_cable as it's serializer returned null
+[26Nov2024 03:16:58.877] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe supplementaries:fine_wood_stairs: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[26Nov2024 03:16:58.879] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[26Nov2024 03:16:58.880] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[26Nov2024 03:16:58.882] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:rib_bone as it's serializer returned null
+[26Nov2024 03:16:58.882] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:mek_elite_pressurized_tube as it's serializer returned null
+[26Nov2024 03:16:58.885] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/yellorium as it's serializer returned null
+[26Nov2024 03:16:58.885] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/yellorite as it's serializer returned null
+[26Nov2024 03:16:58.887] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[26Nov2024 03:16:58.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:mek_advanced_pressurized_tube as it's serializer returned null
+[26Nov2024 03:16:58.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/platinum as it's serializer returned null
+[26Nov2024 03:16:58.905] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:alkahestry/crafting/silver_ingot as it's serializer returned null
+[26Nov2024 03:16:58.908] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:ae_covered_cable as it's serializer returned null
+[26Nov2024 03:16:58.910] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/niter as it's serializer returned null
+[26Nov2024 03:16:58.912] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/sulfur as it's serializer returned null
+[26Nov2024 03:16:58.913] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tetrahedrite as it's serializer returned null
+[26Nov2024 03:16:58.919] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:frozen_core as it's serializer returned null
+[26Nov2024 03:16:58.930] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/aluminum as it's serializer returned null
+[26Nov2024 03:16:58.934] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/ardite as it's serializer returned null
+[26Nov2024 03:16:58.938] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:mek_elite_pressurized_tube_upgrade as it's serializer returned null
+[26Nov2024 03:16:58.946] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[26Nov2024 03:16:58.948] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:mek_advanced_pressurized_tube_upgrade as it's serializer returned null
+[26Nov2024 03:16:58.949] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:zombie_heart as it's serializer returned null
+[26Nov2024 03:16:58.951] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:eye_of_the_storm as it's serializer returned null
+[26Nov2024 03:16:58.956] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/peridot as it's serializer returned null
+[26Nov2024 03:16:58.963] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:molten_core as it's serializer returned null
+[26Nov2024 03:16:58.964] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[26Nov2024 03:16:58.966] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/silver as it's serializer returned null
+[26Nov2024 03:16:58.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/arcane as it's serializer returned null
+[26Nov2024 03:16:58.971] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/bitumen as it's serializer returned null
+[26Nov2024 03:16:58.978] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/pyrite as it's serializer returned null
+[26Nov2024 03:16:58.979] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/ruby as it's serializer returned null
+[26Nov2024 03:16:58.980] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:withered_rib as it's serializer returned null
+[26Nov2024 03:16:58.983] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:bat_wing as it's serializer returned null
+[26Nov2024 03:16:58.984] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tin as it's serializer returned null
+[26Nov2024 03:16:58.986] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/iridium as it's serializer returned null
+[26Nov2024 03:16:58.990] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:mek_advanced_thermodynamic_conductor as it's serializer returned null
+[26Nov2024 03:16:58.994] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:mek_basic_pressurized_tube as it's serializer returned null
+[26Nov2024 03:16:58.998] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/nickel as it's serializer returned null
+[26Nov2024 03:16:59.002] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:nebulous_heart as it's serializer returned null
+[26Nov2024 03:16:59.003] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/bauxite as it's serializer returned null
+[26Nov2024 03:16:59.004] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[26Nov2024 03:16:59.007] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/sheldonite as it's serializer returned null
+[26Nov2024 03:16:59.009] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:alkahestry/crafting/steel_ingot as it's serializer returned null
+[26Nov2024 03:16:59.010] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/cinnabar as it's serializer returned null
+[26Nov2024 03:16:59.012] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/sodalite as it's serializer returned null
+[26Nov2024 03:16:59.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:catalyzing_gland as it's serializer returned null
+[26Nov2024 03:16:59.015] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/galena as it's serializer returned null
+[26Nov2024 03:16:59.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[26Nov2024 03:16:59.017] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tungsten as it's serializer returned null
+[26Nov2024 03:16:59.018] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe supplementaries:fine_wood_slab: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[26Nov2024 03:16:59.019] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:slime_pearl as it's serializer returned null
+[26Nov2024 03:16:59.021] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe supplementaries:fine_wood: com.google.gson.JsonSyntaxException: Missing item, expected to find a string
+[26Nov2024 03:16:59.022] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:alkahestry/crafting/tin_ingot as it's serializer returned null
+[26Nov2024 03:16:59.024] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/sapphire as it's serializer returned null
+[26Nov2024 03:16:59.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/osmium as it's serializer returned null
+[26Nov2024 03:16:59.034] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:guardian_spike as it's serializer returned null
+[26Nov2024 03:16:59.038] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:chelicerae as it's serializer returned null
+[26Nov2024 03:16:59.039] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[26Nov2024 03:16:59.040] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[26Nov2024 03:16:59.041] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/lead as it's serializer returned null
+[26Nov2024 03:16:59.043] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/cobalt as it's serializer returned null
+[26Nov2024 03:16:59.044] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe enderio:ae_glass_cable as it's serializer returned null
+[26Nov2024 03:16:59.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[26Nov2024 03:16:59.046] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_fluid/oil as it's serializer returned null
+[26Nov2024 03:16:59.050] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[26Nov2024 03:16:59.050] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[26Nov2024 03:16:59.101] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_mason_table_upgrade_from_storage_chipped_mason_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/mason_table_upgrade'
+[26Nov2024 03:16:59.112] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_loom_table_upgrade_from_backpack_chipped_loom_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/loom_table_upgrade'
+[26Nov2024 03:16:59.116] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[26Nov2024 03:16:59.117] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_glassblower_upgrade_from_storage_chipped_glassblower_upgrade: Unknown item id 'sophisticatedstorage:chipped/glassblower_upgrade'
+[26Nov2024 03:16:59.120] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_carpenters_table_upgrade_from_backpack_chipped_carpenters_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/carpenters_table_upgrade'
+[26Nov2024 03:16:59.121] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_carpenters_table_upgrade_from_storage_chipped_carpenters_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/carpenters_table_upgrade'
+[26Nov2024 03:16:59.133] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_alchemy_bench_upgrade_from_backpack_chipped_alchemy_bench_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/alchemy_bench_upgrade'
+[26Nov2024 03:16:59.142] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_loom_table_upgrade_from_storage_chipped_loom_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/loom_table_upgrade'
+[26Nov2024 03:16:59.179] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_botanist_workbench_upgrade_from_storage_chipped_botanist_workbench_upgrade: Unknown item id 'sophisticatedstorage:chipped/botanist_workbench_upgrade'
+[26Nov2024 03:16:59.181] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_glassblower_upgrade_from_backpack_chipped_glassblower_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/glassblower_upgrade'
+[26Nov2024 03:16:59.183] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_mason_table_upgrade_from_backpack_chipped_mason_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/mason_table_upgrade'
+[26Nov2024 03:16:59.187] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_botanist_workbench_upgrade_from_backpack_chipped_botanist_workbench_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/botanist_workbench_upgrade'
+[26Nov2024 03:16:59.193] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_tinkering_table_upgrade_from_storage_chipped_tinkering_table_upgrade: Unknown item id 'sophisticatedstorage:chipped/tinkering_table_upgrade'
+[26Nov2024 03:16:59.196] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/backpack_chipped_alchemy_bench_upgrade_from_storage_chipped_alchemy_bench_upgrade: Unknown item id 'sophisticatedstorage:chipped/alchemy_bench_upgrade'
+[26Nov2024 03:16:59.196] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/misc/storage_chipped_tinkering_table_upgrade_from_backpack_chipped_tinkering_table_upgrade: Unknown item id 'sophisticatedbackpacks:chipped/tinkering_table_upgrade'
+[26Nov2024 03:16:59.210] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[26Nov2024 03:16:59.238] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4326 advancements
+[26Nov2024 03:16:59.244] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[26Nov2024 03:16:59.264] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[26Nov2024 03:16:59.275] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[26Nov2024 03:16:59.283] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[26Nov2024 03:16:59.364] [main/INFO] [rechiseled/]: Loaded 44 chiseling recipes
+[26Nov2024 03:16:59.364] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[26Nov2024 03:16:59.379] [main/INFO] [enderio/]: Data loader for eio_soul/spawner loaded 73 jsons
+[26Nov2024 03:16:59.379] [main/INFO] [enderio/]: Data loader for eio_soul/engine loaded 5 jsons
+[26Nov2024 03:16:59.380] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[26Nov2024 03:16:59.637] [main/INFO] [mixin/]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[26Nov2024 03:17:00.193] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:gravel
+[26Nov2024 03:17:00.206] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forsaken:has_structures/wells/pit/cobble, totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/venus_tower
+[26Nov2024 03:17:00.270] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[26Nov2024 03:17:00.316] [main/INFO] [Supplementaries/]: Finished additional setup in 0 ms
+[26Nov2024 03:17:00.398] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 3 ms
+[26Nov2024 03:17:00.926] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Nov2024 03:17:00.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Nov2024 03:17:00.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Nov2024 03:17:00.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Nov2024 03:17:01.103] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Nov2024 03:17:01.181] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Nov2024 03:17:01.226] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: req: https://broker.e4mc.link/getBestRelay GET
+[26Nov2024 03:17:01.266] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Nov2024 03:17:01.278] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Nov2024 03:17:01.278] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Nov2024 03:17:01.278] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Nov2024 03:17:01.279] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Nov2024 03:17:01.297] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easyanvils
+[26Nov2024 03:17:01.312] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[26Nov2024 03:17:01.314] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Nov2024 03:17:01.316] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[26Nov2024 03:17:01.373] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[26Nov2024 03:17:01.375] [e4mc_minecraft-init/INFO] [e4mc_minecraft/]: using relay na
+[26Nov2024 03:17:01.439] [Server thread/INFO] [FTB Teams/]: loaded team data: 4 known players, 4 teams total
+[26Nov2024 03:17:01.450] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficult factors EASY: 0.9, NORMAL: 1.0, PEACEFUL: 1.0 and HARD: 2.0
+[26Nov2024 03:17:01.451] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ⏲ Phase 1/3 - Server took about 53.431 sec to load ...
+[26Nov2024 03:17:01.457] [Server thread/INFO] [Explorations/]: Config 'explorations.json' was successfully loaded.
+[26Nov2024 03:17:01.459] [Server thread/INFO] [Explorations/]: Added statues to vanilla villages
+[26Nov2024 03:17:01.460] [Server thread/INFO] [APTweaks(Items)/]: Max number of Items allowed per world: 128 / per type: 32
+[26Nov2024 03:17:01.461] [Server thread/INFO] [APTweaks(Items)/]: Enable clustering of items with a radius of 3 blocks.
+[26Nov2024 03:17:01.461] [Server thread/INFO] [APTweaks(Items)/]: Optimize all items except from deny list: [item.minecraft.diamond, item.minecraft.diamond_block]
+[26Nov2024 03:17:01.464] [Server thread/WARN] [APTweaks(Items)/]: ⚠ The mod Get It Together, Drops! clusters items in a specific radius, which could conflict with the feature of this mod. Don't use both optimizations together to avoid any side effects!
+[26Nov2024 03:17:01.465] [Server thread/INFO] [APTweaks(Items)/]: Enable clustering of Experience Orbs with a radius of 4 blocks.
+[26Nov2024 03:17:01.465] [Server thread/ERROR] [APTweaks(Items)/]: WARNING: Clumps groups XP orbs together into a new single entity, which will conflict with the XP Orb feature of this mod!
+[26Nov2024 03:17:01.466] [Server thread/WARN] [APTweaks(Items)/]: Don't use both optimizations together! Clustering of Experience Orbs will be automatically disabled!
+[26Nov2024 03:17:01.467] [Server thread/INFO] [Framework/]: Loading server configs...
+[26Nov2024 03:17:01.492] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[26Nov2024 03:17:01.493] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[26Nov2024 03:17:01.497] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[26Nov2024 03:17:01.668] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[26Nov2024 03:17:01.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Nov2024 03:17:02.008] [Server thread/INFO] [shetiphian.core.ShetiPhianCore/]: Loading Teams Data
+[26Nov2024 03:17:02.008] [Server thread/INFO] [shetiphian.core.ShetiPhianCore/]: Finished Loading Teams Data
+[26Nov2024 03:17:02.020] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[26Nov2024 03:17:02.027] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[26Nov2024 03:17:02.066] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[26Nov2024 03:17:02.068] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[26Nov2024 03:17:02.069] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[26Nov2024 03:17:02.070] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[26Nov2024 03:17:02.072] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[26Nov2024 03:17:02.074] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[26Nov2024 03:17:02.075] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[26Nov2024 03:17:02.077] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[26Nov2024 03:17:02.078] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[26Nov2024 03:17:02.081] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[26Nov2024 03:17:02.085] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[26Nov2024 03:17:02.131] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel open: [id: 0x4d39a9f6, QuicStreamAddress{streamId=0}]
+[26Nov2024 03:17:02.132] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: control channel write complete
+[26Nov2024 03:17:02.149] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Game difficulty is set to EASY with a 0.9 factor.
+[26Nov2024 03:17:02.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Nov2024 03:17:02.157] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[26Nov2024 03:17:02.163] [nioEventLoopGroup-2-1/WARN] [e4mc_minecraft/]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[26Nov2024 03:17:02.164] [nioEventLoopGroup-2-1/INFO] [e4mc_minecraft/]: Domain assigned: abuse-mail.na.e4mc.link
+[26Nov2024 03:17:05.308] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.309] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.310] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.310] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.310] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.311] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.311] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.653] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Nov2024 03:17:05.828] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: limitedchunks.json
+[26Nov2024 03:17:06.437] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[26Nov2024 03:17:06.876] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4724 ms
+[26Nov2024 03:17:06.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.586s)! For help, type "help"
+[26Nov2024 03:17:07.115] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Nov2024 03:17:07.116] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] Max number of remote players is set to 8
+[26Nov2024 03:17:07.116] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ⏲ Phase 2/3 - Server took about 59.097 sec to starting (∆: 5.666 secs)...
+[26Nov2024 03:17:07.180] [Server thread/INFO] [FTB Quests/]: Loading quests from /workspaces/QUEESESTOO/servidor_minecraft/config/ftbquests/quests
+[26Nov2024 03:17:07.229] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 3 chapters, 167 quests, 17 reward tables
+[26Nov2024 03:17:07.240] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ⏲ Phase 3/3 - Server took about 59.221 sec to be available and ready to play (∆: 0.124 secs) ...
+[26Nov2024 03:17:07.295] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[26Nov2024 03:17:15.457] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: farsight.json
+[26Nov2024 03:17:15.458] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[26Nov2024 03:17:15.459] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[26Nov2024 03:17:15.459] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: chunksending.json
+[26Nov2024 03:17:15.678] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 126965 bytes (in 13 string chunks with the size of 10000)
+[26Nov2024 03:17:15.679] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[26Nov2024 03:17:15.680] [Server thread/WARN] [ModernFix/]: Dedicated server took 67.733 seconds to load
+[26Nov2024 03:17:17.235] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from NORMAL (avg. 50.0) to LOW (avg. 29.205730438232422)
+[26Nov2024 03:17:18.183] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:overworld changed from NORMAL (avg. 45.0) to LOW (avg. 19.29377278)
+[26Nov2024 03:17:18.185] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_nether changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.15426809)
+[26Nov2024 03:17:18.185] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_end changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.1317634)
+[26Nov2024 03:17:18.186] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for twilightforest:twilight_forest changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.09143121000000001)
+[26Nov2024 03:17:18.187] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for deeperdarker:otherside changed from NORMAL (avg. 45.0) to VERY_LOW (avg. 0.08310239999999999)
+[26Nov2024 03:17:31.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 29.205730438232422) to VERY_LOW (avg. 1.3383656740188599)
+[26Nov2024 03:17:52.866] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatCommandPacket
+[26Nov2024 03:17:52.869] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
+[26Nov2024 03:17:52.871] [Netty Epoll Server IO #2/INFO] [mixin/]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket
+[26Nov2024 03:17:57.405] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: diansersonico[/100.69.4.14:54104] logged in with entity id 164 at (-210.04665061697372, 130.9375, -370.8419569735055)
+[26Nov2024 03:17:57.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico joined the game
+[26Nov2024 03:18:03.489] [Server thread/INFO] [Jade/]: Syncing config to diansersonico (b8e63624-204b-3507-a32b-32743518badc)
+[26Nov2024 03:18:03.531] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of b8e63624-204b-3507-a32b-32743518badc was loaded
+[26Nov2024 03:18:03.813] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6532ms or 130 ticks behind
+[26Nov2024 03:18:06.428] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ElMatyCojedor[/100.87.201.16:51866] logged in with entity id 326 at (-165.80174359695653, 128.5625, -405.96295300223926)
+[26Nov2024 03:18:06.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElMatyCojedor joined the game
+[26Nov2024 03:18:06.584] [Server thread/INFO] [Jade/]: Syncing config to ElMatyCojedor (5545a97b-0be1-32d2-9b6b-0c4f6ffecb2d)
+[26Nov2024 03:18:07.221] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 5545a97b-0be1-32d2-9b6b-0c4f6ffecb2d was loaded
+[26Nov2024 03:18:08.606] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 1.2030339241027832) to LOW (avg. 39.292823791503906)
+[26Nov2024 03:18:30.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 27.265199661254883) to VERY_LOW (avg. 14.591166496276855)
+[26Nov2024 03:19:40.065] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: abdul_halzalred[/100.88.225.118:56446] logged in with entity id 524 at (-196.06638285101462, 118.5, -445.3101155159472)
+[26Nov2024 03:19:40.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abdul_halzalred joined the game
+[26Nov2024 03:19:40.166] [Server thread/INFO] [Jade/]: Syncing config to abdul_halzalred (6dbd2efc-479c-36a3-bebc-d35c4d5b55b7)
+[26Nov2024 03:19:40.356] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.357] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.357] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.357] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.358] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.358] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.359] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.359] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:19:40.359] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.359] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.359] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.360] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.360] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.360] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.360] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.360] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.361] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.361] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.361] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.361] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:19:40.361] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.362] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.362] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:19:40.362] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.362] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:19:40.362] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[26Nov2024 03:19:40.362] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.363] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.364] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.364] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.364] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.364] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.364] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[26Nov2024 03:19:40.748] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 6dbd2efc-479c-36a3-bebc-d35c4d5b55b7 was loaded
+[26Nov2024 03:24:16.046] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Toivo'/258, l='ServerLevel[world]', x=-255.56, y=21.00, z=-359.68] died, message: 'Toivo hit the ground too hard'
+[26Nov2024 03:24:16.047] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Toivo'/258, l='ServerLevel[world]', x=-255.56, y=21.00, z=-359.68] died: Toivo fell from a high place
+[26Nov2024 03:24:23.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 15.847488403320312) to LOW (avg. 20.790660858154297)
+[26Nov2024 03:24:38.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.790660858154297) to VERY_LOW (avg. 16.076457977294922)
+[26Nov2024 03:25:44.343] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Martta'/257, l='ServerLevel[world]', x=-253.74, y=26.00, z=-370.76] died, message: 'Martta hit the ground too hard'
+[26Nov2024 03:25:44.344] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Martta'/257, l='ServerLevel[world]', x=-253.74, y=26.00, z=-370.76] died: Martta fell from a high place
+[26Nov2024 03:25:53.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 15.662576675415039) to LOW (avg. 21.524826049804688)
+[26Nov2024 03:26:00.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.524826049804688) to VERY_LOW (avg. 16.06817626953125)
+[26Nov2024 03:26:23.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 16.079023361206055) to LOW (avg. 24.993993759155273)
+[26Nov2024 03:26:30.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 24.993993759155273) to VERY_LOW (avg. 17.427101135253906)
+[26Nov2024 03:27:15.224] [Server thread/INFO] [forge.net.mca.MCA/]: Villagers clothing  does not exist!
+[26Nov2024 03:27:15.224] [Server thread/INFO] [forge.net.mca.MCA/]: Villagers hair  does not exist!
+[26Nov2024 03:27:42.600] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for ElMatyCojedor
+[26Nov2024 03:27:42.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElMatyCojedor fell out of the world
+[26Nov2024 03:27:42.610] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for ElMatyCojedor at BlockPos{x=-282, y=60, z=-513}
+[26Nov2024 03:27:42.611] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player ElMatyCojedor
+[26Nov2024 03:28:12.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Creative Mode]
+[26Nov2024 03:31:13.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 03:36:39.297] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 14.311553955078125) to VERY_HIGH (avg. 64.87504577636719)
+[26Nov2024 03:36:45.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from VERY_HIGH (avg. 64.87504577636719) to LOW (avg. 22.065906524658203)
+[26Nov2024 03:37:00.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 22.065906524658203) to VERY_LOW (avg. 14.698812484741211)
+[26Nov2024 03:40:45.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 14.858097076416016) to LOW (avg. 20.80470085144043)
+[26Nov2024 03:40:53.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.80470085144043) to VERY_LOW (avg. 16.08429527282715)
+[26Nov2024 03:43:22.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Set the time to 1000]
+[26Nov2024 03:44:24.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Creative Mode]
+[26Nov2024 03:45:25.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 03:45:38.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 16.776351928710938) to LOW (avg. 21.28544807434082)
+[26Nov2024 03:45:53.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.28544807434082) to VERY_LOW (avg. 16.48196029663086)
+[26Nov2024 03:47:08.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 15.514365196228027) to LOW (avg. 21.820615768432617)
+[26Nov2024 03:47:15.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.820615768432617) to VERY_LOW (avg. 19.67447280883789)
+[26Nov2024 03:47:22.692] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Saddie Hussein'/255, l='ServerLevel[world]', x=-211.71, y=85.00, z=-334.22] died, message: 'Saddie Hussein hit the ground too hard'
+[26Nov2024 03:47:22.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Saddie Hussein'/255, l='ServerLevel[world]', x=-211.71, y=85.00, z=-334.22] died: Saddie Hussein fell from a high place
+[26Nov2024 03:48:21.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 03:48:30.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 03:50:45.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 17.159828186035156) to LOW (avg. 21.46066665649414)
+[26Nov2024 03:51:00.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.46066665649414) to VERY_LOW (avg. 16.653884887695312)
+[26Nov2024 03:53:08.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 17.889995574951172) to LOW (avg. 20.65839195251465)
+[26Nov2024 03:53:15.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.65839195251465) to VERY_LOW (avg. 18.55622100830078)
+[26Nov2024 03:53:30.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 18.55622100830078) to LOW (avg. 20.533153533935547)
+[26Nov2024 03:53:45.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.533153533935547) to VERY_LOW (avg. 17.503463745117188)
+[26Nov2024 03:53:53.448] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 17.503463745117188) to LOW (avg. 20.5921688079834)
+[26Nov2024 03:54:08.451] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from LOW (avg. 23.255624771118164) to MEDIUM (avg. 46.20111083984375)
+[26Nov2024 03:54:23.431] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from MEDIUM (avg. 46.20111083984375) to LOW (avg. 23.251497268676758)
+[26Nov2024 03:54:38.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 23.251497268676758) to VERY_LOW (avg. 19.032243728637695)
+[26Nov2024 03:55:08.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.83418083190918) to LOW (avg. 20.756040573120117)
+[26Nov2024 03:55:23.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.756040573120117) to VERY_LOW (avg. 14.856834411621094)
+[26Nov2024 03:55:25.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 03:57:30.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 16.247642517089844) to LOW (avg. 23.217517852783203)
+[26Nov2024 03:57:33.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 03:57:53.633] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abdul_halzalred moved too quickly! -0.9334844898096719,1.1474792332900563,-10.170596844281022
+[26Nov2024 03:57:53.665] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2484ms or 49 ticks behind
+[26Nov2024 03:57:57.133] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Level load for minecraft:overworld changed from LOW (avg. 33.957229659999996) to HIGH (avg. 48.1712611)
+[26Nov2024 03:58:03.382] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 25.84769630432129) to VERY_LOW (avg. 19.72658920288086)
+[26Nov2024 03:58:25.882] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.649606704711914) to LOW (avg. 20.42588996887207)
+[26Nov2024 03:58:42.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: diansersonico lost connection: Disconnected
+[26Nov2024 03:58:42.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico left the game
+[26Nov2024 03:58:42.609] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of b8e63624-204b-3507-a32b-32743518badc was unloaded
+[26Nov2024 03:58:55.883] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.043439865112305) to VERY_LOW (avg. 14.849432945251465)
+[26Nov2024 04:00:36.438] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: diansersonico[/100.69.4.14:54588] logged in with entity id 10324 at (1611.699999988079, -5.0, -1039.300000011921)
+[26Nov2024 04:00:36.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico joined the game
+[26Nov2024 04:00:36.613] [Server thread/INFO] [Jade/]: Syncing config to diansersonico (b8e63624-204b-3507-a32b-32743518badc)
+[26Nov2024 04:00:37.273] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of b8e63624-204b-3507-a32b-32743518badc was loaded
+[26Nov2024 04:00:40.882] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 13.687156677246094) to LOW (avg. 21.80243682861328)
+[26Nov2024 04:01:03.381] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.92325210571289) to VERY_LOW (avg. 18.960445404052734)
+[26Nov2024 04:01:33.382] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.568056106567383) to LOW (avg. 21.678924560546875)
+[26Nov2024 04:01:48.382] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.678924560546875) to VERY_LOW (avg. 18.492361068725586)
+[26Nov2024 04:02:25.881] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.896610260009766) to LOW (avg. 20.583059310913086)
+[26Nov2024 04:02:40.882] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.583059310913086) to VERY_LOW (avg. 18.36441993713379)
+[26Nov2024 04:03:03.438] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.180540084838867) to LOW (avg. 37.859107971191406)
+[26Nov2024 04:03:24.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:03:25.883] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.272964477539062) to VERY_LOW (avg. 19.81047248840332)
+[26Nov2024 04:03:41.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:03:43.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:03:46.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:04:03.382] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 12.746870040893555) to LOW (avg. 27.54046058654785)
+[26Nov2024 04:04:05.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:04:07.173] [Server thread/INFO] [forge.net.mca.MCA/]: Villagers clothing  does not exist!
+[26Nov2024 04:04:07.173] [Server thread/INFO] [forge.net.mca.MCA/]: Villagers hair  does not exist!
+[26Nov2024 04:04:10.883] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 27.54046058654785) to VERY_LOW (avg. 19.59984588623047)
+[26Nov2024 04:04:16.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:04:19.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:05:09.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:05:14.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:05:17.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:05:22.443] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for abdul_halzalred
+[26Nov2024 04:05:22.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abdul_halzalred fell out of the world
+[26Nov2024 04:05:22.446] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for abdul_halzalred at BlockPos{x=1583, y=60, z=-1018}
+[26Nov2024 04:05:22.447] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player abdul_halzalred
+[26Nov2024 04:05:47.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:05:52.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Set own game mode to Creative Mode]
+[26Nov2024 04:06:08.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:06:22.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Spectator Mode]
+[26Nov2024 04:06:30.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Creative Mode]
+[26Nov2024 04:06:34.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:06:46.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:06:49.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Survival Mode]
+[26Nov2024 04:06:53.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 04:07:06.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Set own game mode to Survival Mode]
+[26Nov2024 04:07:16.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Spectator Mode]
+[26Nov2024 04:07:20.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Survival Mode]
+[26Nov2024 04:07:23.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:07:31.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [Eye Spy]
+[26Nov2024 04:07:32.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:07:33.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElMatyCojedor has made the advancement [Eye Spy]
+[26Nov2024 04:07:35.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abdul_halzalred has made the advancement [Eye Spy]
+[26Nov2024 04:09:02.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has reached the goal [Big Kahuna Burger]
+[26Nov2024 04:09:22.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported diansersonico to ElMatyCojedor]
+[26Nov2024 04:09:23.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to ElMatyCojedor]
+[26Nov2024 04:09:26.570] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 12.802565574645996) to VERY_HIGH (avg. 70.84088897705078)
+[26Nov2024 04:09:37.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Creative Mode]
+[26Nov2024 04:09:40.881] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from VERY_HIGH (avg. 70.84088897705078) to VERY_LOW (avg. 13.15104866027832)
+[26Nov2024 04:09:53.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 04:10:54.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported diansersonico to ElMatyCojedor]
+[26Nov2024 04:10:56.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Creative Mode]
+[26Nov2024 04:11:13.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 04:11:35.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Spectator Mode]
+[26Nov2024 04:11:36.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Survival Mode]
+[26Nov2024 04:11:46.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [The End?]
+[26Nov2024 04:11:49.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElMatyCojedor has made the advancement [The End?]
+[26Nov2024 04:11:49.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abdul_halzalred has made the advancement [The End?]
+[26Nov2024 04:11:49.106] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4225ms or 84 ticks behind
+[26Nov2024 04:11:57.826] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
+[26Nov2024 04:11:57.827] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
+[26Nov2024 04:12:00.537] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ElMatyCojedor moved too quickly! -1570.3141619113508,91.39260454995134,957.4745652652891
+[26Nov2024 04:12:00.539] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abdul_halzalred moved too quickly! -1570.2282048773693,91.26590000152588,958.1360268252038
+[26Nov2024 04:12:02.010] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:overworld changed from HIGH (avg. 48.1712611) to VERY_LOW (avg. 8.48601894)
+[26Nov2024 04:12:02.011] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Level load for minecraft:the_end changed from VERY_LOW (avg. 0.21298606) to VERY_HIGH (avg. 118.0890666)
+[26Nov2024 04:12:07.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:13:14.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abdul_halzalred has completed the challenge [Great View From Up Here]
+[26Nov2024 04:13:14.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has completed the challenge [Great View From Up Here]
+[26Nov2024 04:17:08.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [Free the End]
+[26Nov2024 04:17:10.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [Eyes Open]
+[26Nov2024 04:19:19.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [Remote Getaway]
+[26Nov2024 04:19:23.035] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2854ms or 57 ticks behind
+[26Nov2024 04:19:25.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 14.60135269165039) to LOW (avg. 25.74081039428711)
+[26Nov2024 04:19:26.681] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Level load for minecraft:the_end changed from VERY_HIGH (avg. 118.0890666) to NORMAL (avg. 37.63485577)
+[26Nov2024 04:19:40.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 25.74081039428711) to VERY_LOW (avg. 11.891500473022461)
+[26Nov2024 04:19:51.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:19:55.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:20:11.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:20:31.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:20:37.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:21:07.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:21:23.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:21:25.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:21:29.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:21:32.297] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: diansersonico moved too quickly! -12.196048249249912,-5.0,-6.218454903327256
+[26Nov2024 04:21:36.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abdul_halzalred moved too quickly! 13.30217739723588,7.0,-0.8660369319525216
+[26Nov2024 04:21:39.870] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abdul_halzalred moved too quickly! 7.620839911280143,-10.0,14.321020883633992
+[26Nov2024 04:21:59.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abdul_halzalred moved too quickly! 10.506800099147313,5.0,1.448732817409109
+[26Nov2024 04:22:09.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: diansersonico moved too quickly! 12.149289046492441,1.0,6.820378945045604
+[26Nov2024 04:22:34.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:23:40.543] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abdul_halzalred moved too quickly! 9.911722157107278,-0.42863834683271307,-10.964332109529323
+[26Nov2024 04:23:49.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:23:51.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:24:33.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:24:57.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:25:22.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abdul_halzalred: Teleported abdul_halzalred to diansersonico]
+[26Nov2024 04:26:41.241] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abdul_halzalred lost connection: Disconnected
+[26Nov2024 04:26:41.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abdul_halzalred left the game
+[26Nov2024 04:26:41.243] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 6dbd2efc-479c-36a3-bebc-d35c4d5b55b7 was unloaded
+[26Nov2024 04:27:46.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Creative Mode]
+[26Nov2024 04:27:52.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Creative Mode]
+[26Nov2024 04:28:38.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Survival Mode]
+[26Nov2024 04:28:49.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [Lightning Strikes Twice]
+[26Nov2024 04:32:07.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 04:32:09.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported diansersonico to ElMatyCojedor]
+[26Nov2024 04:32:10.436] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 7.772315502166748) to NORMAL (avg. 45.47951126098633)
+[26Nov2024 04:32:25.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from NORMAL (avg. 45.47951126098633) to VERY_LOW (avg. 5.64111328125)
+[26Nov2024 04:32:55.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported diansersonico to ElMatyCojedor]
+[26Nov2024 04:33:30.554] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Crocco[/100.74.189.120:50884] logged in with entity id 18440 at (-4.5, 0.0, 1.5)
+[26Nov2024 04:33:30.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco joined the game
+[26Nov2024 04:33:30.660] [Server thread/INFO] [Jade/]: Syncing config to Crocco (9db9eb1e-59e3-3cab-a44f-7daf92daf65a)
+[26Nov2024 04:33:31.226] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 9db9eb1e-59e3-3cab-a44f-7daf92daf65a was loaded
+[26Nov2024 04:34:00.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Minecraft Comes Alive]
+[26Nov2024 04:34:10.441] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 18.05250358581543) to LOW (avg. 20.89875030517578)
+[26Nov2024 04:34:17.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.89875030517578) to VERY_LOW (avg. 19.223461151123047)
+[26Nov2024 04:34:55.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.98496437072754) to LOW (avg. 21.391162872314453)
+[26Nov2024 04:35:11.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Diamonds!]
+[26Nov2024 04:35:22.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Cover Me with Diamonds]
+[26Nov2024 04:35:25.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 22.90435791015625) to VERY_LOW (avg. 17.18779182434082)
+[26Nov2024 04:35:29.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported diansersonico to ElMatyCojedor]
+[26Nov2024 04:35:38.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:35:58.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:36:09.503] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for Crocco
+[26Nov2024 04:36:09.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco fell from a high place
+[26Nov2024 04:36:09.507] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for Crocco at BlockPos{x=-150, y=41, z=-401}
+[26Nov2024 04:36:09.507] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player Crocco
+[26Nov2024 04:36:16.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:36:55.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 17.758651733398438) to LOW (avg. 21.344585418701172)
+[26Nov2024 04:37:17.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 26.57474136352539) to VERY_LOW (avg. 18.622272491455078)
+[26Nov2024 04:37:32.934] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 18.622272491455078) to LOW (avg. 20.56220245361328)
+[26Nov2024 04:37:47.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.56220245361328) to VERY_LOW (avg. 17.727815628051758)
+[26Nov2024 04:38:04.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Made Crocco a server operator]
+[26Nov2024 04:38:25.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.581531524658203) to LOW (avg. 28.795284271240234)
+[26Nov2024 04:38:47.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.521995544433594) to VERY_LOW (avg. 17.445226669311523)
+[26Nov2024 04:39:02.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 17.445226669311523) to LOW (avg. 33.05766677856445)
+[26Nov2024 04:39:04.183] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Level load for minecraft:overworld changed from VERY_LOW (avg. 13.524613380000002) to LOW (avg. 17.024752739999997)
+[26Nov2024 04:39:15.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [The End?]
+[26Nov2024 04:39:15.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to diansersonico]
+[26Nov2024 04:39:25.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 31.01524543762207) to VERY_LOW (avg. 13.183761596679688)
+[26Nov2024 04:40:01.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:40:28.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:41:03.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 1.0242114097268313,-280.0,7.103971548764775
+[26Nov2024 04:41:52.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElMatyCojedor has completed the challenge [Great View From Up Here]
+[26Nov2024 04:42:24.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:42:29.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 2.9346495789754954,-430.0381401920248,-6.571535919851158
+[26Nov2024 04:42:29.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has completed the challenge [Great View From Up Here]
+[26Nov2024 04:43:05.605] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 6.467505008241915,-9.0,-6.734619343577833
+[26Nov2024 04:43:08.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:43:48.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Creative Mode]
+[26Nov2024 04:43:49.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 5.858791629931375,-245.41073521663705,-6.181879663294239
+[26Nov2024 04:43:50.192] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for Crocco
+[26Nov2024 04:43:50.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco fell from a high place
+[26Nov2024 04:43:50.196] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for Crocco at BlockPos{x=1476, y=-217, z=2201}
+[26Nov2024 04:43:50.196] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player Crocco
+[26Nov2024 04:43:54.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:43:55.431] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 10.114336013793945) to LOW (avg. 20.14923095703125)
+[26Nov2024 04:44:17.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 29.838163375854492) to VERY_LOW (avg. 9.610956192016602)
+[26Nov2024 04:44:31.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Survival Mode]
+[26Nov2024 04:45:38.051] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 3.7249471155525953,-268.0,6.664858695080056
+[26Nov2024 04:46:00.397] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for Crocco
+[26Nov2024 04:46:00.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco fell out of the world
+[26Nov2024 04:46:00.400] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for Crocco at BlockPos{x=1477, y=60, z=2201}
+[26Nov2024 04:46:00.401] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player Crocco
+[26Nov2024 04:46:02.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 15.528695106506348) to LOW (avg. 22.9680118560791)
+[26Nov2024 04:46:06.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:46:10.431] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 22.9680118560791) to VERY_LOW (avg. 16.49716567993164)
+[26Nov2024 04:46:16.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [Blast Protection Not Included]
+[26Nov2024 04:46:29.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Creative Mode]
+[26Nov2024 04:47:17.931] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 14.367839813232422) to LOW (avg. 20.00173568725586)
+[26Nov2024 04:47:32.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.00173568725586) to VERY_LOW (avg. 12.97737979888916)
+[26Nov2024 04:47:34.602] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for Crocco
+[26Nov2024 04:47:34.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco fell from a high place
+[26Nov2024 04:47:34.604] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for Crocco at BlockPos{x=1468, y=-187, z=2344}
+[26Nov2024 04:47:34.604] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player Crocco
+[26Nov2024 04:47:40.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 12.97737979888916) to LOW (avg. 35.36446762084961)
+[26Nov2024 04:47:41.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:47:43.294] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for Crocco
+[26Nov2024 04:47:43.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco fell from a high place
+[26Nov2024 04:47:43.297] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for Crocco at BlockPos{x=1378, y=-82, z=3173}
+[26Nov2024 04:47:43.297] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player Crocco
+[26Nov2024 04:48:02.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 22.27312469482422) to VERY_LOW (avg. 18.358461380004883)
+[26Nov2024 04:48:10.431] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 18.358461380004883) to LOW (avg. 25.687408447265625)
+[26Nov2024 04:48:16.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Set own game mode to Creative Mode]
+[26Nov2024 04:48:22.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:48:27.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:48:32.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 22.17622947692871) to VERY_LOW (avg. 10.653726577758789)
+[26Nov2024 04:49:21.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Creative Mode]
+[26Nov2024 04:49:34.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Survival Mode]
+[26Nov2024 04:49:47.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Set own game mode to Survival Mode]
+[26Nov2024 04:50:02.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 14.377738952636719) to LOW (avg. 20.452207565307617)
+[26Nov2024 04:50:17.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.452207565307617) to VERY_LOW (avg. 12.845599174499512)
+[26Nov2024 04:50:23.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:50:25.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 12.845599174499512) to LOW (avg. 22.796831130981445)
+[26Nov2024 04:50:40.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 22.796831130981445) to VERY_LOW (avg. 8.855291366577148)
+[26Nov2024 04:50:41.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Creative Mode]
+[26Nov2024 04:50:47.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 04:50:59.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Set own game mode to Survival Mode]
+[26Nov2024 04:52:04.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Spectator Mode]
+[26Nov2024 04:52:54.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 04:53:48.144] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 6.9676102774749324,-84.0,-5.798667515697161
+[26Nov2024 04:56:05.593] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 6.240894209078533,-2.0,-7.749475740745311
+[26Nov2024 04:56:11.095] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 5.887975928648984,4.0,7.13986966233233
+[26Nov2024 04:56:17.946] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 12.20578670501709) to LOW (avg. 20.748619079589844)
+[26Nov2024 04:56:32.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.748619079589844) to VERY_LOW (avg. 11.95567798614502)
+[26Nov2024 04:56:43.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:58:21.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Teleported Crocco to ElMatyCojedor]
+[26Nov2024 04:59:55.551] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 15.551640510559082) to VERY_HIGH (avg. 57.62040328979492)
+[26Nov2024 05:00:02.933] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from VERY_HIGH (avg. 57.62040328979492) to VERY_LOW (avg. 16.969196319580078)
+[26Nov2024 05:00:17.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Spectator Mode]
+[26Nov2024 05:00:40.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ElMatyCojedor moved too quickly! 9.851803459560415,1.6762700033462892,3.0494383155050855
+[26Nov2024 05:01:07.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Set own game mode to Survival Mode]
+[26Nov2024 05:01:14.402] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ElMatyCojedor moved too quickly! 4.106363716915894,0.850799980258941,9.235161252321177
+[26Nov2024 05:02:10.493] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! -6.478321254678576,-13.0,-0.7017195057201207
+[26Nov2024 05:02:13.449] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! -3.4004366236367787,-15.0,-2.8074260111593503
+[26Nov2024 05:02:23.755] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 3.8216626527407698,-21.0,0.07403817211252317
+[26Nov2024 05:02:29.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco moved too quickly! 6.739985355515273,-18.0,-1.2181385916151157
+[26Nov2024 05:02:38.591] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Preparing grave for Crocco
+[26Nov2024 05:02:38.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco fell out of the world
+[26Nov2024 05:02:38.593] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Spawned grave for Crocco at BlockPos{x=1418, y=60, z=3840}
+[26Nov2024 05:02:38.593] [Server thread/INFO] [dev.quarris.enigmaticgraves.EnigmaticGraves/]: Added grave entry to player Crocco
+[26Nov2024 05:02:40.447] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 12.263055801391602) to LOW (avg. 35.24097442626953)
+[26Nov2024 05:02:47.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 35.24097442626953) to VERY_LOW (avg. 18.895183563232422)
+[26Nov2024 05:03:02.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 18.895183563232422) to LOW (avg. 20.683504104614258)
+[26Nov2024 05:03:10.434] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 20.683504104614258) to VERY_LOW (avg. 19.24274444580078)
+[26Nov2024 05:03:13.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [The City at the End of the Game]
+[26Nov2024 05:03:25.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 19.24274444580078) to LOW (avg. 21.857826232910156)
+[26Nov2024 05:03:40.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.857826232910156) to VERY_LOW (avg. 17.751216888427734)
+[26Nov2024 05:03:42.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Set own game mode to Creative Mode]
+[26Nov2024 05:03:47.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 17.751216888427734) to LOW (avg. 23.493446350097656)
+[26Nov2024 05:03:50.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has reached the goal [Sky's the Limit]
+[26Nov2024 05:03:55.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 23.493446350097656) to VERY_LOW (avg. 18.326194763183594)
+[26Nov2024 05:04:01.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ElMatyCojedor: Teleported ElMatyCojedor to diansersonico]
+[26Nov2024 05:04:02.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElMatyCojedor has made the advancement [The City at the End of the Game]
+[26Nov2024 05:04:02.935] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 18.326194763183594) to MEDIUM (avg. 47.49958038330078)
+[26Nov2024 05:04:10.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from MEDIUM (avg. 47.49958038330078) to VERY_LOW (avg. 19.931121826171875)
+[26Nov2024 05:04:25.675] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ElMatyCojedor moved too quickly! -0.011103952448365817,-10.998124508119162,0.969255267448716
+[26Nov2024 05:04:42.452] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ElMatyCojedor moved wrongly!
+[26Nov2024 05:04:46.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Crocco: Set own game mode to Survival Mode]
+[26Nov2024 05:04:47.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico has made the advancement [Local Brewery]
+[26Nov2024 05:06:17.694] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Hilda'/30619, l='ServerLevel[world]', x=-256.72, y=25.00, z=-366.31] died, message: 'Hilda hit the ground too hard'
+[26Nov2024 05:06:17.695] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Hilda'/30619, l='ServerLevel[world]', x=-256.72, y=25.00, z=-366.31] died: Hilda fell from a high place
+[26Nov2024 05:07:20.148] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ElMatyCojedor lost connection: Disconnected
+[26Nov2024 05:07:20.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElMatyCojedor left the game
+[26Nov2024 05:07:20.150] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 5545a97b-0be1-32d2-9b6b-0c4f6ffecb2d was unloaded
+[26Nov2024 05:07:26.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Simple Farming]
+[26Nov2024 05:08:53.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement ['X' Marks the Spot]
+[26Nov2024 05:09:55.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 14.973169326782227) to LOW (avg. 20.57919692993164)
+[26Nov2024 05:10:47.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 21.84358024597168) to VERY_LOW (avg. 14.57621955871582)
+[26Nov2024 05:12:09.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Monster Hunter]
+[26Nov2024 05:12:45.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Stone Age]
+[26Nov2024 05:16:10.432] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 16.605953216552734) to LOW (avg. 25.062795639038086)
+[26Nov2024 05:16:32.932] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from LOW (avg. 22.06399917602539) to VERY_LOW (avg. 12.495357513427734)
+[26Nov2024 05:16:41.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported diansersonico to Crocco]
+[26Nov2024 05:18:37.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported diansersonico to Crocco]
+[26Nov2024 05:22:27.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [A breath of fresh air]
+[26Nov2024 05:23:30.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported Crocco to diansersonico]
+[26Nov2024 05:27:47.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [diansersonico: Teleported Crocco to diansersonico]
+[26Nov2024 05:31:02.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Getting an Upgrade]
+[26Nov2024 05:39:25.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Ol' Betsy]
+[26Nov2024 05:39:25.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco has made the advancement [Take Aim]
+[26Nov2024 05:40:22.193] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Crocco lost connection: Disconnected
+[26Nov2024 05:40:22.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Crocco left the game
+[26Nov2024 05:40:22.195] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 9db9eb1e-59e3-3cab-a44f-7daf92daf65a was unloaded
+[26Nov2024 05:41:08.121] [Server thread/INFO] [forge.net.mca.MCA/]: Villagers clothing  does not exist!
+[26Nov2024 05:41:08.122] [Server thread/INFO] [forge.net.mca.MCA/]: Villagers hair  does not exist!
+[26Nov2024 05:41:48.443] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↑ Server load changed from VERY_LOW (avg. 10.370321273803711) to VERY_HIGH (avg. 74.27116394042969)
+[26Nov2024 05:41:55.433] [Server thread/INFO] [APTweaks(Core)/]: [APTweaks:Core] ↓ Server load changed from VERY_HIGH (avg. 74.27116394042969) to VERY_LOW (avg. 15.352302551269531)
+[26Nov2024 05:43:44.992] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagerEntityMCA['Dona'/34603, l='ServerLevel[world]', x=-191.50, y=-451.91, z=-374.24] died, message: 'Dona fell out of the world'
+[26Nov2024 05:43:44.993] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagerEntityMCA['Dona'/34603, l='ServerLevel[world]', x=-191.50, y=-451.91, z=-374.24] died: Dona fell out of the world
+[26Nov2024 05:46:07.442] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: diansersonico lost connection: Disconnected
+[26Nov2024 05:46:07.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: diansersonico left the game
+[26Nov2024 05:46:07.443] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of b8e63624-204b-3507-a32b-32743518badc was unloaded

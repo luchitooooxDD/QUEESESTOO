@@ -1,0 +1,39 @@
+{
+	"feature": "extra_geodes:uraninite_geode",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 1,
+						"data": 1
+					},
+					{
+						"weight": 4,
+						"data": 0
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 50
+				},
+				"max_inclusive": {
+					"above_bottom": 200
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

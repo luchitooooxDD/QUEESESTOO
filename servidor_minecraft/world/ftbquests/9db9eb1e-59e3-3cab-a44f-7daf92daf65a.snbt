@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "9db9eb1e59e33caba44f7daf92daf65a"
+	name: "Crocco#9db9eb1e"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
